@@ -1,6 +1,6 @@
-# **ddd**
+# **readme generator**
 
-dssds
+git hub
 
 ## Table of contents
 
@@ -15,15 +15,15 @@ dssds
 
 ## Description
 
-sds
+develop a readme generator
 
 ## Installation
 
-sds
+node js
 
 ## Usage
 
-sds
+to develop future readme files
 
 ## Licence
 
@@ -31,27 +31,27 @@ sds
 
 ## Contribtors
 
-ss
+Nicholas Jazgunovich
 
 ##  Test
 
-ss
+jest
 
 ## Username
 
-ss
+njazgunovich
 
 ## Repo
 
-
+njazgunovich/readmegenerator
 
 
 ## GitHub
 
-![Image of me](https://avatars1.githubusercontent.com/u/290?v=4)
+![Image of me](https://avatars1.githubusercontent.com/u/73392689?v=4)
 
-- Scott Steadman
+- Nicholas Jazgunovich
 
-- [GitHub Profile](https://github.com/ss)
+- [GitHub Profile](https://github.com/njazgunovich)
 
 - <null>
