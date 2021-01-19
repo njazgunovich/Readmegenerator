@@ -4,8 +4,11 @@ const axios = require("axios");
 
 function generate(data, github) {
     return `# **${data.title}**
+
 ${data.badge}
+
 ## Table of contents
+
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -14,29 +17,48 @@ ${data.badge}
 - [Test](#Test)
 - [Repository Link](#Repository)
 - [GitHub Info](#GitHub)
+
 ## Description
+
 ${data.description}
 
 ## Installation
+
 ${data.installation}
+
 ## Usage
+
 ${data.usage}
+
 ## Licence
-${data.licence}
+
+![](https://img.shields.io/badge/License-${data.license}-<orange>)
+
 ## Contribtors
+
 ${data.contributing }
+
 ##  Test
+
 ${data.test }
+
 ## Username
+
 ${data.username }
+
 ## Repo
+
 ${data.repo }
 
 
 ## GitHub
+
 ![Image of me](${github.githubImage})
+
 - ${github.name}
+
 - [GitHub Profile](${github.profile})
+
 - <${github.email}>
 `;
 }
@@ -67,11 +89,15 @@ const questions = [{
         message: "Please provide the project usage"
     },
     {
-        type: "input",
-        name: "licence",
-        message: "Please provide the project licence or your badge link"
+        type: "list",
+        name: "license",
+        choices: ["MIT", "APACHE2.0", "GPLv3", "None"],
+        message: "Please choose the project licence you want to use?"
     },
+
     {
+
+
         type: "input",
         name: "contributing",
         message: "Please provide the contributing parties"
